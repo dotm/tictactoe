@@ -1,0 +1,45 @@
+#notification{
+    width: 30%;
+    min-width: 300px;
+    border: 1px solid;
+    margin: 1% auto;
+    font-weight: bold;
+    padding: 0.2% 0%;
+    text-align: center;
+}
+
+input{
+  display: block;
+  margin: 1% auto;
+}
+
+table {
+  margin: auto;
+}
+
+td{
+  height: 80px;
+  min-width: 80px;
+  border: 1px solid;
+  font-size: 0;
+}
+td:after{
+    content: ".";
+    visibility: hidden;
+}
+#dataInput{
+  min-width: 400px;
+  min-height: 50px;
+}
+
+.x{
+  background-image: url('sprites.png');
+  background-repeat: no-repeat;
+  background-position: -9px -8px;
+}
+
+.o{
+  background-image: url('sprites.png');
+  background-repeat: no-repeat;
+  background-position: -10px -113px;
+}
